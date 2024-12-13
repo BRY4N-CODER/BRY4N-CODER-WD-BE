@@ -1,10 +1,12 @@
 <?php
 include('connect.php');
 
+
 $islandQuery = "SELECT * FROM islandsofpersonality";
 $islandResult = executeQuery($islandQuery);
 ?>
 
+<link rel="icon" href="Pictures/icon.png">
 <!DOCTYPE html>
 <html>
 <head>
